@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.mob-pic{
+    border: 3px solid rgb(177, 12, 125);
+    width: 15%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.mob-pic img{
+    position: absolute;
+    width: 10%;
+}
+.mob-pic:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h5{
+    align-self: flex-end;
+    margin-bottom: -50px;
+    color:rgb(187, 17, 125) ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f4f4f4;
+}
+.delete-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.counter {
+    font-size: 48px;
+    margin: 20px;
+}
+.button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.increase {
+    background-color: green;
+    color: white;
+}
+.decrease {
+    background-color: red;
+    color: white;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+.details {
+    display: none; 
+}
+.read-more-btn {
+    color: white;
+    background-color: rgb(91, 101, 131);
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
